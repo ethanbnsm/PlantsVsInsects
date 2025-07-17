@@ -1,0 +1,57 @@
+<Pootager Nom="Case_1" Nb_iterations="200" Size_x="8" Size_y="6">
+    <Parcelle Pos_x="1" Pos_y="0"/>
+    <Parcelle Pos_x="2" Pos_y="0"/>
+    <Parcelle Pos_x="3" Pos_y="0"/>
+    <Parcelle Pos_x="4" Pos_y="0"/>
+    <Parcelle Pos_x="6" Pos_y="0"/>
+    
+    <Parcelle Pos_x="0" Pos_y="1"/>
+    <Parcelle Pos_x="1" Pos_y="1"/>
+    <Parcelle Pos_x="2" Pos_y="1"/>        
+    <Parcelle Pos_x="3" Pos_y="1">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>
+    <Parcelle Pos_x="4" Pos_y="1"/>    
+    <Parcelle Pos_x="5" Pos_y="1"/>    
+    <Parcelle Pos_x="6" Pos_y="1"/>    
+    <Parcelle Pos_x="7" Pos_y="1"/>
+        
+    <Parcelle Pos_x="0" Pos_y="2"/>
+    <Parcelle Pos_x="1" Pos_y="2">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>    
+    <Parcelle Pos_x="4" Pos_y="2"/>            
+    <Parcelle Pos_x="5" Pos_y="2"/>                        
+    <Parcelle Pos_x="6" Pos_y="2"/>
+    
+    <Parcelle Pos_x="0" Pos_y="3"/>    
+    <Parcelle Pos_x="1" Pos_y="3">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>    
+    <Parcelle Pos_x="2" Pos_y="3"/>    
+    <Parcelle Pos_x="4" Pos_y="3"/>
+    <Parcelle Pos_x="5" Pos_y="3"/>
+
+    <Parcelle Pos_x="1" Pos_y="4"/>
+    <Parcelle Pos_x="2" Pos_y="4">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>
+    <Parcelle Pos_x="3" Pos_y="4"/>
+    <Parcelle Pos_x="4" Pos_y="4"/>
+    <Parcelle Pos_x="5" Pos_y="4">
+        <Plante Espece="Tuberosum"  Maturite_pied ="80" Maturite_fruit = "20" Nb_recolte = "1" Surface="1.0" Humidite_min ="0.2" Humidite_max="0.9"/>
+    </Parcelle>    
+    <Parcelle Pos_x="6" Pos_y="4"/>
+    <Parcelle Pos_x="7" Pos_y="4"/>
+    
+    <Parcelle Pos_x="2" Pos_y="5"/>    
+    <Parcelle Pos_x="3" Pos_y="5"/>  
+    <Parcelle Pos_x="4" Pos_y="5"/>  
+    <Parcelle Pos_x="5" Pos_y="5">
+        <Plante Espece="Tuberosum"  Maturite_pied ="80" Maturite_fruit = "20" Nb_recolte = "1" Surface="1.0" Humidite_min ="0.2" Humidite_max="0.9"/>
+    </Parcelle>      
+    <Parcelle Pos_x="6" Pos_y="5"/>
+    <Parcelle Pos_x="7" Pos_y="5">  
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>                     
+</Pootager>

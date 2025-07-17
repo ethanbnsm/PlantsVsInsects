@@ -1,0 +1,124 @@
+<Pootager Nom="Case_4 - Test de l'évolution des insectes (CORRIGE)" Nb_iterations="400" Size_x="8" Size_y="6">
+    <Parcelle Pos_x="1" Pos_y="0">
+        <Dispositif Rayon = "1">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "10"/>
+            <Programme Produit = "Insecticide" Debut = "150" Duree = "1" Periode = "10"/>            
+        </Dispositif>    
+    </Parcelle>
+    <Parcelle Pos_x="2" Pos_y="0">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+    </Parcelle>    
+    <Parcelle Pos_x="3" Pos_y="0"/>
+    <Parcelle Pos_x="4" Pos_y="0">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+    </Parcelle>
+    <Parcelle Pos_x="5" Pos_y="0"/>    
+    <Parcelle Pos_x="7" Pos_y="0"/>
+    
+    <Parcelle Pos_x="0" Pos_y="1"/>
+    <Parcelle Pos_x="1" Pos_y="1">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+    </Parcelle>
+    <Parcelle Pos_x="4" Pos_y="1">
+        <Dispositif Rayon = "1">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "10"/>          
+        </Dispositif>       
+    </Parcelle>        
+    <Parcelle Pos_x="5" Pos_y="1">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+    </Parcelle>   
+    <Parcelle Pos_x="6" Pos_y="1"/>    
+    <Parcelle Pos_x="7" Pos_y="1">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+        <Insecte Espece="Puceron" Sexe="M" Vie_max="15" Duree_vie_max="50" Proba_mobilite="0.65" Resistance_insecticide = "0.5" Max_portee = "10" Temps_entre_repro = "24"/>
+        <Insecte Espece="Puceron" Sexe="M" Vie_max="15" Duree_vie_max="50" Proba_mobilite="0.5" Resistance_insecticide = "0.5" Max_portee = "10" Temps_entre_repro = "24"/>
+        <Insecte Espece="Puceron" Sexe="F" Vie_max="22" Duree_vie_max="50" Proba_mobilite="0.65" Resistance_insecticide = "0.5" Max_portee = "10" Temps_entre_repro = "24"/>
+        <Insecte Espece="Puceron" Sexe="F" Vie_max="19" Duree_vie_max="50" Proba_mobilite="0.65" Resistance_insecticide = "0.5" Max_portee = "10" Temps_entre_repro = "24"/>
+        <Insecte Espece="Puceron" Sexe="F" Vie_max="21" Duree_vie_max="50" Proba_mobilite="0.5" Resistance_insecticide = "0.5" Max_portee = "10" Temps_entre_repro = "24"/>
+        <Insecte Espece="Puceron" Sexe="F" Vie_max="18" Duree_vie_max="50" Proba_mobilite="0.5" Resistance_insecticide = "0.5" Max_portee = "10" Temps_entre_repro = "24"/>
+    </Parcelle>
+        
+    <Parcelle Pos_x="0" Pos_y="2">
+        <Dispositif Rayon = "1">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "20"/>
+            <Programme Produit = "Insecticide" Debut = "200" Duree = "1" Periode = "10"/>            
+        </Dispositif>
+    </Parcelle>
+    <Parcelle Pos_x="2" Pos_y="2">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>                
+    <Parcelle Pos_x="3" Pos_y="2">                        
+        <Dispositif Rayon = "1">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "5"/> 
+        </Dispositif>
+    </Parcelle>
+    <Parcelle Pos_x="6" Pos_y="2">                        
+        <Dispositif Rayon = "2">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "5"/> 
+        </Dispositif>
+    </Parcelle>
+
+    <Parcelle Pos_x="0" Pos_y="3">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+    </Parcelle>   
+    <Parcelle Pos_x="1" Pos_y="3">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.50"/>
+    </Parcelle>    
+    <Parcelle Pos_x="3" Pos_y="3">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle>        
+    <Parcelle Pos_x="4" Pos_y="3">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle> 
+    <Parcelle Pos_x="5" Pos_y="3">
+        <Plante Espece="Solanum lycopersicum"  Maturite_pied ="60" Maturite_fruit = "20" Nb_recolte = "5" Surface="0.5" Humidite_min ="0.5" Humidite_max="0.8"/>
+    </Parcelle> 
+    <Parcelle Pos_x="7" Pos_y="3">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.80"/>
+        <Insecte Espece="Hanneton" Sexe="M" Vie_max="15" Duree_vie_max="40" Proba_mobilite="0.5" Resistance_insecticide = "0.5" Max_portee = "4" Temps_entre_repro = "11"/>
+        <Insecte Espece="Hanneton" Sexe="M" Vie_max="16" Duree_vie_max="40" Proba_mobilite="0.55" Resistance_insecticide = "0.5" Max_portee = "4" Temps_entre_repro = "11"/>
+        <Insecte Espece="Hanneton" Sexe="F" Vie_max="20" Duree_vie_max="40" Proba_mobilite="0.5" Resistance_insecticide = "0.5" Max_portee = "4" Temps_entre_repro = "11"/>
+        <Insecte Espece="Hanneton" Sexe="F" Vie_max="19" Duree_vie_max="40" Proba_mobilite="0.65" Resistance_insecticide = "0.5" Max_portee = "4" Temps_entre_repro = "11"/>
+        <Insecte Espece="Hanneton" Sexe="F" Vie_max="22" Duree_vie_max="40" Proba_mobilite="0.45" Resistance_insecticide = "0.5" Max_portee = "4" Temps_entre_repro = "11"/>
+        <Insecte Espece="Hanneton" Sexe="F" Vie_max="23" Duree_vie_max="40" Proba_mobilite="0.35" Resistance_insecticide = "0.5" Max_portee = "4" Temps_entre_repro = "11"/>
+    </Parcelle>
+
+    <Parcelle Pos_x="1" Pos_y="4">
+        <Dispositif Rayon = "1">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "20"/>
+            <Programme Produit = "Insecticide" Debut = "150" Duree = "1" Periode = "20"/>            
+        </Dispositif>
+    </Parcelle>
+    <Parcelle Pos_x="2" Pos_y="4">
+        <Plante_Drageonnante Espece="Fragoria vesca"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.15"/>
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.80"/>
+    </Parcelle> 
+    <Parcelle Pos_x="6" Pos_y="4">
+        <Plante_Drageonnante Espece="Fragoria vesca"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.15"/>
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.80"/>
+    </Parcelle>
+    <Parcelle Pos_x="7" Pos_y="4"/>
+    
+    <Parcelle Pos_x="2" Pos_y="5"/>    
+    <Parcelle Pos_x="3" Pos_y="5">
+        <Plante_Drageonnante Espece="Fragoria vesca"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.15"/>
+    </Parcelle>    
+    <Parcelle Pos_x="4" Pos_y="5">
+        <Dispositif Rayon = "1">
+            <Programme Produit = "Eau" Debut = "1" Duree = "2" Periode = "4"/>
+            <Programme Produit = "Engrais" Debut = "1" Duree = "1" Periode = "20"/>
+            <Programme Produit = "Insecticide" Debut = "100" Duree = "1" Periode = "20"/>            
+        </Dispositif>
+    </Parcelle>
+    <Parcelle Pos_x="5" Pos_y="5">
+        <Plante_Drageonnante Espece="Fragoria presta"  Maturite_pied ="20" Maturite_fruit = "15" Nb_recolte = "10" Surface="0.2" Humidite_min ="0.6" Humidite_max="1"  Proba_Colonisation = "0.80"/>
+    </Parcelle>        
+    <Parcelle Pos_x="6" Pos_y="5"/>                 
+</Pootager>
